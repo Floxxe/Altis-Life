@@ -46,6 +46,10 @@
 			<Italian>Caffè</Italian>
 			<French>Café de Gyro</French>
 		</Key>
+		<Key ID="STR_Shops_O_ADAC">
+			<Original>ADAC Clothing</Original>
+			<German>ADAC Kleiderkammer</German>
+		</Key>
 		<Key ID="STR_Shops_DrugDealer">
 			<Original>Tonic's Narcotics</Original>
 			<German>Drogendealer</German>
