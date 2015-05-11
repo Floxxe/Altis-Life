@@ -81,8 +81,11 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	//It's a vehicle! open the vehicle interaction key!
 	if(_isVehicle) then {
 		if(!dialog) then {
-			if(player distance _curTarget < SEL(SEL(boundingBox _curTarget,1),0)+2) then {
+			if(playerSide != east && player distance _curTarget < SEL(SEL(boundingBox _curTarget,1),0)+2) then {
 				[_curTarget] call life_fnc_vInteractionMenu;
+			};
+			if(playerSide == east && player distance _curTarget < SEL(SEL(boundingBox _curTarget,1),0)+2) then {
+				[_curTarget] call life_fnc_adacVInteractionMenu;
 			};
 		};
 	} else {
