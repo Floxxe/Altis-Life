@@ -22,7 +22,7 @@ if(!(EQUAL(_license,""))) then {
 };
 if(_exit) exitWith {};
 
-_flag = switch(playerSide) do {case west: {"cop"}; case independent: {"med"}; default {"civ"};};
+_flag = switch(playerSide) do {case west: {"cop"}; case independent: {"med"}; case east: {"adac"}; default {"civ"};};
 if(!(EQUAL(_flag,_shopSide))) exitWith {};
 
 /* Open up the menu */
