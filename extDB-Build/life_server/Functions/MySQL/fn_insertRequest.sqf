@@ -44,18 +44,20 @@ _money = [_money] call DB_fnc_numberSafe;
 _bank = [_bank] call DB_fnc_numberSafe;
 
 //Prepare the query statement..
-_query = format["playerInfoInsert:%1:%2:%3:%4:%5:%6:%7:%8:%9:%10:%11",
+_query = format["playerInfoInsert:%1:%2:%3:%4:%5:%6:%7:%8:%9:%10:%11:%12:%13",
 	_uid,
 	_name,
 	_money,
 	_bank,
 	_alias,
 	[],	// Cop Licenses
-    [], // Med Licenses
-    [], // Civ Licenses
-    [], // Civ Gear
-    [], // Cop Gear
-    []  // Med Gear
+    	[], 	// Med Licenses
+    	[], 	// Civ Licenses
+    	[], 	// ADAC Licenses
+    	[], 	// Civ Gear
+	[], 	// Cop Gear
+    	[],  	// Med Gear
+    	[] 	// ADAC Gear
 ];
 
 waitUntil {!DB_Async_Active};
