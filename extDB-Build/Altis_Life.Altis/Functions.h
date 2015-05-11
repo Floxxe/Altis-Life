@@ -25,6 +25,7 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
+		class initAdac {};
 		class welcomeNotification {};
 		class survival {};
 	};
@@ -231,6 +232,7 @@ class Life_Client_Core
 		class vehTakeItem {};
 		class vehInventory {};
 		class vInteractionMenu {};
+		class adacVInteractionMenu {};
 		class vehicleWeight {};
 		class deviceMine {};
 		class addVehicle2Chain {};
@@ -344,5 +346,12 @@ class Life_Client_Core
 		class vehicleGarage {};
 		class gangDeposit {};
 		class wireTransfer {};
+	};
+	
+	class Adac
+	{
+		file = "core\adac";
+		class adacLoadout {};
+		class adacMarkers {};;
 	};
 };
