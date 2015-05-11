@@ -122,6 +122,20 @@ class CarShops {
 			{ "B_SDV_01_F", 150000, "boat" }
 		};
 	};
+	
+	class adac_shop {
+		side = "adac";
+		vehicles[] = {
+			{ "C_Offroad_01_F", 10000, "" }
+		};
+	};
+
+	class adac_air {
+		side = "adac";
+		vehicles[] = {
+			{ "B_Heli_Light_01_F", 50000, "", { "life_adaclevel", 2 } }
+		};
+	};
 };
 
 /*
