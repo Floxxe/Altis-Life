@@ -189,3 +189,7 @@ PVAR_ALL("life_server_isReady");
 
 /* Initialize hunting zone(s) */
 ["hunting_zone",30] spawn TON_fnc_huntingZone;
+
+//Make Friends on the Server
+east setFriend [west, 1];
+west setFriend [east, 1];
