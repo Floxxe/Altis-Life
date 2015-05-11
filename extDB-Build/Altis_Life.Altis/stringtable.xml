@@ -1820,6 +1820,10 @@
 			<Italian>Non sei un poliziotto.</Italian>
 			<Portuguese>Você não é Policial.</Portuguese>
 		</Key>
+		<Key ID="STR_NOTF_NotAAdac">
+			<Original>You are not a mechanic.</Original>
+			<German>Du bist kein Mechaniker.</German>
+		</Key>
 		<Key ID="STR_NOTF_NoRoom">
 			<Original>You don't have enough room for that item.</Original>
 			<German>Du hast nicht genug Platz für den Gegenstand.</German>
