@@ -155,4 +155,20 @@ class WeaponShops {
 			{ "B_FieldPack_ocamo", "", 3000 }
         };
     };
+    //ADAC Shops
+    class adac_basic {
+        name = "store";
+        side = "adac";
+        license = "";
+        level = -1;
+        items[] = {
+            		{ "ItemGPS", "", 100 },
+			{ "Binocular", "", 150 },
+			{ "ToolKit", "", 250 },
+			{ "FirstAidKit", "", 150 },
+			{ "Medikit", "", 500 },
+			{ "NVGoggles", "", 1200 },
+			{ "B_FieldPack_ocamo", "", 3000 }
+        };
+    };
 };
