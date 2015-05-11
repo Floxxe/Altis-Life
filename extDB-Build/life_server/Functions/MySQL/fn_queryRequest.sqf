@@ -27,6 +27,7 @@ _query = switch(_side) do {
 	case west: {_returnCount = 10; format["playerWestInfo:%1",_uid];};
 	case civilian: {_returnCount = 9; format["playerCivInfo:%1",_uid];};
 	case independent: {_returnCount = 9; format["playerIndependentInfo:%1",_uid];};
+	case east: {_returnCount = 9; format["playerEastInfo:%1",_uid];};
 };
 
 waitUntil{sleep (random 0.3); !DB_Async_Active};
